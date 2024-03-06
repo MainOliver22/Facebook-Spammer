@@ -10,13 +10,13 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # ------------------  USER INPUT  ------------------ #
 
-email_id = ''
-password = ''
+email_id = 'donaldddavis@rhyta.com'
+password = 'T77$XkdSG7P6&$p'
 
-page_link = ''
-number_of_times = 
-frequency = 
-message = ""
+page_link = 'https://www.facebook.com/profile.php?id=100069473910207&mibextid=ZbWKwL'
+number_of_times = 1
+frequency = 3
+message = "https://m.facebook.com/story.php?story_fbid=319476171117084&id=100091641108819&mibextid=Nif5oz"
 
 # -----------------  INITIALIZE CHROMEDRIVER  ---------------------- #
 
@@ -26,7 +26,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')             # Start Chrome maximized.
 options.add_argument('--disable-notifications')
 url = 'https://www.facebook.com'
-driver = webdriver.Chrome('E:\Python\chromedriver.exe', desired_capabilities=capa, chrome_options=options)  # Arguments
+driver = webdriver.Chrome('C:\Users\user\Downloads\chromedriver_win32\chromedriver.exe', desired_capabilities=capa, chrome_options=options)  # Arguments
 driver.get(url)
 
 # ----------------  LOG IN AND SPAM  ----------------- #
