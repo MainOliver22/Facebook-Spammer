@@ -14,7 +14,7 @@ email_id = 'donaldddavis@rhyta.com'
 password = 'T77$XkdSG7P6&$p'
 
 page_link = 'https://www.facebook.com/profile.php?id=100069473910207&mibextid=ZbWKwL'
-number_of_times = 1
+number_of_times = 50
 frequency = 3
 message = "https://m.facebook.com/story.php?story_fbid=319476171117084&id=100091641108819&mibextid=Nif5oz"
 
